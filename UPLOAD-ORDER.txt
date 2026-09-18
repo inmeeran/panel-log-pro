@@ -1,0 +1,13 @@
+UPLOAD TO GITHUB REPOSITORY (PUBLIC WEBSITE FILES)
+1. index.html
+2. panel-cloud.js
+3. supabase-config.js (configure first)
+4. manifest.json
+5. sw.js
+6. icon.svg
+
+DO NOT deploy supabase-schema.sql as a website asset.
+Run supabase-schema.sql in Supabase SQL Editor instead.
+
+IMPORTANT: replace the placeholders in supabase-config.js with your Supabase Project URL and browser-safe publishable/anon key before deployment.
+NEVER use a service_role/secret key in supabase-config.js.
